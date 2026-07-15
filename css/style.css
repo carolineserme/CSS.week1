@@ -4,12 +4,12 @@ body{
 }
 /* Cabeçalho */
 header {
-    background-color: #f0f4f8; /* Define uma cor de fundo clara */
+    background-color: #f0f0f0; /* Cinza bem clarinho */
 }
 
 /* Menu de navegação */
 nav {
-    background-color: #2c3e50; /* Define uma cor de fundo escura */
+    background-color: #f0f0f0; /* Cinza bem clarinho */
 }
 
 /* Conteúdo principal */
@@ -20,23 +20,31 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: #e2e8f0; /* Fundo cinzento claro */
+    background-color: #f0f0f0; /* Cinza bem clarinho */
 }
 
 /* Elemento li (os itens do menu de navegação) */
 li {
-    display: inline-block; /* EXIGIDO: Alinha os itens na horizontal */
-    width: 150px;          /* EXIGIDO: Define uma largura para cada item */
+    display: inline-block; /* Alinha os itens na horizontal */
+    width: 150px;          /* Define uma largura para cada item */
 }
 
 /* Título principal h1 */
 h1 {
     text-align: center;                  /* Alinhamento ao centro */
     font-family: 'Times New Roman', serif; /* Família de fonte */
-    color: #2c3e50;                      /* Cor do texto */
+    color: #001f3f;                      /* Azul marinho escuro */
 }
 
 /* Parágrafos p */
 p {
     line-height: 1.6; /* Altura de linha para dar espaço entre as frases */
+    color: #001f3f;   /* Azul marinho escuro */
+}
+
+/* Links do menu */
+nav a {
+    color: #001f3f;          /* Azul marinho escuro */
+    text-decoration: none;   /* Remove sublinhado */
+    font-weight: bold;       /* Dá destaque */
 }
